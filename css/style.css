@@ -22,6 +22,65 @@ li a {
 }
 li a:hover {
   background-color: #ffe88e;
+  
+}
+.subHeading {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 600px;
+  margin: 10px auto;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+#categoryGrid {
+  margin: 25px;
+  display: grid;
+  height: fit-content;
+  grid-template-rows: 200% 200%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "caseystudy1 casestudy2"
+  "casestudy3 casestudy4";
+}
+
+#casestudy1{
+  grid-area: Case Study 1;
+  background-image: url("../Images/phonedisplaybrownbackroundimage.jpg");
+
+}
+#casestudy2 {
+  grid-area: Case Study 2;
+  background-image: url("../images/yellowlaptopdisplayimage.jpg");
+}
+
+#casestudy3 {
+  grid-area: Case Study 3;
+  background-image: url("../Images/Device\ Display\ Falling\ View\ Image.jpg.jpg");
+}
+#casestudy4 {
+  grid-area: Case Study 4;
+  background-image: url("../Images/phonedisplayyellowbackgorundimage.png");
+}
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+.heading {
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #dd86bf;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
 .bigheader{
   margin: 100px;
