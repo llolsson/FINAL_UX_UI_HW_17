@@ -3,7 +3,6 @@ ul {
   margin: 0;
   padding: 0px;
   height: 90px;
-  overflow: hidden;
   background-color: #52bee5;
   font-family: 'Quicksand', sans-serif;
 }
@@ -27,16 +26,16 @@ li a:hover {
 .subHeading {
   text-align: center;
   border-bottom: 2px solid black;
-  width: 600px;
-  margin: 10px auto;
+  width: 400px;
+  margin: 70px auto;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
 }
 
 #categoryGrid {
-  margin: 25px;
+  margin: 0px;
   display: grid;
-  height: fit-content;
+  height: auto;
   grid-template-rows: 200% 200%;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
@@ -100,27 +99,50 @@ p {
   margin: 5px;
   padding: 0px;
 }
-.heroImg{
-  margin: 10px;
-  padding: 0px;  
-}
-.heroImg1{
-  margin: 10px;
-  padding: 0px;
-  text-align: left;
-}
-.heroImg2{
-  margin: 10px;
-  padding: 0px;
-  text-align: right;
-}
-.heroImg3{
-  margin: 10px;
-  padding: 0px;
-  text-align:left;
-}
 img {
   border-radius: 10px;
   max-width: 100%;
   height: auto;
+}
+#container{
+  width: 80%;
+  background: rgb(255, 255, 255);
+  text-align:left;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
+  margin: 100px;
+  padding: 3px;
+}
+#floated{
+  float: left;
+  width: 200px;
+  margin: 20px;
+}
+#container1{
+  width: 80%;
+  background: rgb(255, 255, 255);
+  text-align:right;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
+  margin: 100px;
+  padding: 3px;
+}
+#floated1{
+  float: right;
+  width: 200px;
+  margin: 20px;
+}
+#container2{
+  width: 80%;
+  background: rgb(255, 255, 255);
+  text-align:left;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
+  margin: 100px;
+  padding: 3px;
+}
+#floated2{
+  float: left;
+  width: 150px;
+  margin: 20px;
 }
